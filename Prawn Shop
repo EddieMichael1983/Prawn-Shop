@@ -1,0 +1,39 @@
+background(153, 255, 214);
+
+var textS = 30;
+
+fill(255, 79, 255);
+textSize(22);
+text("PINKY'S PRAWN SHOP", 84, 53); //Title of Shop
+
+fill(0, 0, 0);
+textSize(15);
+text("MIAMI PRAWN, JUMBO SHRIMP AND CRISPY CLAMS", 14, 87);
+
+fill(255, 38, 56);
+ellipse(202, 306, 75, 172); //prawn body
+
+ellipse(202, 194, 56, 117);
+
+stroke(0, 0, 0);
+fill(255, 255, 255);
+ellipse(179, 170, 20, 22);
+
+stroke(0, 0, 0);
+fill(255, 255, 255);
+ellipse(224, 170, 20, 22);
+
+stroke(0, 0, 0);
+fill(5, 5, 5);
+ellipse(224, 170, 10, 10);
+
+stroke(0, 0, 0);
+fill(5, 5, 5);
+ellipse(179, 170, 10, 10);
+
+fill(0, 0, 0);
+arc(202, 203, 28, 62, 0, 179);
+
+fill(0, 0, 0);
+triangle(149, 193, 197, 195, 197, 192);
+triangle(256, 193, 209, 195, 209, 192); 
